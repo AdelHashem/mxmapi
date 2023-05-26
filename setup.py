@@ -13,7 +13,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name="mxmapi",
-    version="0.1.1",
+    version="0.1.2",
     description="A simple Python library for the Musixmatch Web API",
     long_description=long_description,
     long_description_content_type="text/markdown",
