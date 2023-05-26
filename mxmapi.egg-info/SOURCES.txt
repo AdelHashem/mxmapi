@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mxmapi/__init__.py
+mxmapi/client.py
+mxmapi/exceptions.py
+mxmapi.egg-info/PKG-INFO
+mxmapi.egg-info/SOURCES.txt
+mxmapi.egg-info/dependency_links.txt
+mxmapi.egg-info/requires.txt
+mxmapi.egg-info/top_level.txt

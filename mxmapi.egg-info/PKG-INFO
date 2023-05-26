@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mxmapi
+Version: 0.1.0
+Summary: A simple Python library for the Musixmatch Web API
+Home-page: https://medium-multiply.readthedocs.io/
+Author: Adel Hashem
+Author-email: adel.mohamed.9998@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/AdelHashem/mxmapi
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A simple Python library for the Musixmatch Web API
+### Installation
+```
+pip install mxmapi
+```
+
+### Quick Start
+
+How to get track by spotify track id:
+
+To get started, install mxmapi and create an app on https://developer.musixmatch.com/ .Use your API KEY
+
+```Python
+from mxmapi import Musixmatch
+
+# Instantiate a Musixmatch object
+musixmatch = Musixmatch(API_key='your_api_key')
+
+# Call the get_track method
+result = musixmatch.track_get(track_spotify_id="6kwAbEjseqBob48jCus7Sz")
+track =result["message"]["body"]["track"]
+```
