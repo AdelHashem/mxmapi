@@ -17,7 +17,7 @@ setup(
     description="A simple Python library for the Musixmatch Web API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://medium-multiply.readthedocs.io/",
+    url="https://mxmapi.readthedocs.io/",
     author="Adel Hashem",
     author_email="adel.mohamed.9998@gmail.com",
     license="MIT",
